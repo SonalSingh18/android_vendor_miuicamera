@@ -18,8 +18,13 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/miuicamera/common/proprietary/etc/device_features/ginkgo.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/ginkgo.xml \
     vendor/miuicamera/common/proprietary/etc/device_features/willow.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/willow.xml \
+    vendor/miuicamera/common/proprietary/etc/device_features/curtana.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/curtana.xml \
+    vendor/miuicamera/common/proprietary/etc/device_features/excalibur.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/excalibur.xml \
+    vendor/miuicamera/common/proprietary/etc/device_features/gram.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/gram.xml \
+    vendor/miuicamera/common/proprietary/etc/device_features/joyeuse.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/joyeuse.xml \
     vendor/miuicamera/common/proprietary/etc/permissions/privapp-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuicamera.xml \
     vendor/miuicamera/common/proprietary/lib/libcameraservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcameraservice.so \
+    vendor/miuicamera/common/proprietary/lib64/libcameraservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcameraservice.so \
     vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so \
     vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libarc_layer_sgl.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libarc_layer_sgl.so \
     vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libarcsoft_wideselfie.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libarcsoft_wideselfie.so \

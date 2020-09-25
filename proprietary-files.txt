@@ -1,5 +1,5 @@
 # MiuiCamera - from laurel_sprout V11.0.20.0.QFQMIXM - manually patched
--priv-app/MiuiCamera/MiuiCamera.apk|65cd34d64337d3b378f4323d87d76b15b698c64f
+-priv-app/MiuiCamera/MiuiCamera.apk|94f015eb7b24b514b945a9eeec58c7e9840995b1
 
 # MiuiCamera - libraries - from laurel_sprout V11.0.15.0.QFQMIXM
 lib64/libarc_layer_sgl.so:priv-app/MiuiCamera/lib/arm64/libarc_layer_sgl.so
@@ -26,6 +26,10 @@ etc/permissions/privapp-permissions-miuicamera.xml
 # Device features
 etc/device_features/ginkgo.xml
 etc/device_features/willow.xml
+etc/device_features/curtana.xml
+etc/device_features/excalibur.xml
+etc/device_features/gram.xml
+etc/device_features/joyeuse.xml
 
 # Fonts
 vendor/camera/fonts/MFYueYuan-Regular.ttf
@@ -35,5 +39,6 @@ vendor/camera/fonts/MIUI_Time.ttf
 # ArcSoft config
 vendor/etc/camera/beauty_ui9_intelligent_params.config
 
-# Camera service - from ginkgo MIUI 20.8.20
-lib/libcameraservice.so
+# Camera service - from gram MIUI 11.0.3.0
+lib/libcameraservice.so|8ac0cf79b22c3f2ffa2c6fb3ddbd1fec93337f55
+lib64/libcameraservice.so|c6c62685e49ba828902ef4bade58bcf799d9afe6
